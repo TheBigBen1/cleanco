@@ -40,6 +40,7 @@ terms_by_type = {
    'Sole Proprietorship': ['e.u.', 's.p.', 't:mi', 'tmi', 'e.v.', 'e.c.', 'et', 'obrt',
       'fie', 'ij', 'fop', 'xt'
    ]
+   'others': ['se','s.e.','s.e']
 }
 
 terms_by_country = {
@@ -138,5 +139,6 @@ terms_by_country = {
       '& company', 'inc', 'inc.', 'corp.', 'corp', 'ltd.', 'ltd', '& co.', '& co', 'co.',
       'co', 'lp'
    ],
-   'Uzbekistan': ['mchj', 'qmj', 'aj', 'oaj', 'yoaj', 'xk', 'xt', 'ok', 'uk', 'qk']
+   'Uzbekistan': ['mchj', 'qmj', 'aj', 'oaj', 'yoaj', 'xk', 'xt', 'ok', 'uk', 'qk'],
+   'European': ['se','s.e.','s.e']
 }
