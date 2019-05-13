@@ -58,7 +58,9 @@ class cleanco(object):
 		for key, suffix in a_set:
 			if ((business_name.lower()).endswith(" " + suffix)):
 				end_set.append(key)
-
+			if suffix.endswith("."):
+				if ((business_name.lower()).endswith(" " + suffix[:-1])):
+					end_set.append(key)
 		end_set = list(OrderedDict.fromkeys(end_set))
 
 		if end_set != []:
