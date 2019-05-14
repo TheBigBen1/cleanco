@@ -39,7 +39,7 @@ terms_by_type = {
    'Professional Limited Liability Company': ['pllc', 'p.l.l.c.'],
    'Sole Proprietorship': ['e.u.', 's.p.', 't:mi', 'tmi', 'e.v.', 'e.c.', 'et', 'obrt',
       'fie', 'ij', 'fop', 'xt'
-   ]
+   ],
    'others': ['se','s.e.','s.e']
 }
 
