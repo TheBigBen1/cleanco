@@ -175,6 +175,6 @@ legal_suffixes = [' i/s', '& co', '& co.', '& company', '3ao', '3at', 'a spol.',
                   'sgps', 'sgr', 'sh.a.', 'sh.p.k.', 'sia', 'sicav', 'sm pte ltd.', 'smba', 'snc',
                   'soc.col.', 'sogepa', 'sp', 'sp. z.o.o.', 'sp.j.', 'sp.k.', 'sp.p.',
                   'spol. s r.o.', 'sprl', 'srl.', 'stg', 'suc. de descendants', 't:mi', 'tapui',
-                  'tdv', 'teo', 'tmi', 'tov', 'uab', 'ud', 'uk', 'ultd', 'ultd.', 'unlimited',
+                  'tdv', 'teo', 'tmi', 'tov', 'uab', 'ud', 'ultd', 'ultd.', 'unlimited',
                   'unltd', 'v.o.f.', 'v.o.s.', 'vat', 'veÅ\x99. obch. spol.', 'vof', 'vzw', 'xk',
                   'xt', 'xxk', 'yoaj', 'zao', 'zat', 'zrt.']
