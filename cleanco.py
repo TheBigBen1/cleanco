@@ -89,6 +89,14 @@ class cleanco(object):
 					name = self.string_stripper(name)
 					if multi==False:
 						break
+				if item[-1]==".":
+					if loname.endswith(" " + item[:-1]):
+						start = loname.find(item[:-1])
+						end = len(item[:-1])
+						name = name[0:-end-1]
+						name = self.string_stripper(name)
+						if multi==False:
+							break
 			if prefix:
 				if loname.startswith(item+' '):
 					name = name[len(item)+1:]
