@@ -3,7 +3,7 @@
 from collections import OrderedDict
 import re
 
-from termdata import terms_by_country as country_dict, terms_by_type as type_dict
+from termdata import terms_by_country as country_dict, terms_by_type as type_dict, legal_suffixes
 
 
 # Sorted business types / abbreviation by length of business type
