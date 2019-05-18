@@ -19,7 +19,7 @@ setup(name='cleanco',
       url='https://github.com/psolin/cleanco',
       author='Paul Solin',
       author_email='paul@paulsolin.com',
-      py_modules=['cleanco', 'termdata'],
+      py_modules=['cleanco', 'termdata','eng_vocab'],
       setup_requires=['pytest-runner'],
       tests_require=['pytest', 'tox'],
       )
