@@ -4,7 +4,7 @@ from collections import OrderedDict
 import re
 
 from termdata import terms_by_country as country_dict, terms_by_type as type_dict, legal_suffixes
-
+from eng_vocab import eng_words
 
 # Sorted business types / abbreviation by length of business type
 sorted_types = []
