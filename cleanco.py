@@ -23,12 +23,13 @@ for country in country_dict:
 sorted_countries = sorted(sorted_countries, key=lambda part: len(part[1]), reverse=True)
 
 # All of the suffixes sorted by length
-all_sorted = sorted_types + sorted_countries
-suffix_sort = []
-for item in all_sorted:
-	suffix_sort.append(item[1])
-suffix_sort = sorted(suffix_sort, key=lambda part: len(part), reverse=True)
+#all_sorted = sorted_types + sorted_countries
+#suffix_sort = []
+#for item in all_sorted:
+#	suffix_sort.append(item[1])
+#suffix_sort = sorted(suffix_sort, key=lambda part: len(part), reverse=True)
 
+suffix_sort = legal_suffixes
 
 class cleanco(object):
 
